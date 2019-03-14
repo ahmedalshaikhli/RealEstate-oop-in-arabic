@@ -1,0 +1,234 @@
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/DroidKufi-Bold.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+
+
+body {
+	 font-family:  mySecondFont!important;
+}
+
+
+
+.h1 {
+	font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+	
+    
+}
+
+.call-us-text {
+	font-size: 16px !important;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #777 ;
+}
+
+table.table-bordered > thead > tr > th{
+  border:1px solid blue;
+}
+@media (max-width: 768px) {
+  h2 { font-size: 16px; }
+}
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    background-color: #fbd959 !important;
+	 border-color: #fbd959 !important;
+	color: #777;
+}
+
+.navbar-default {
+    background-color: #233142;
+    border-color: #233142;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+	font-family:  myFirstFont;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #fff !important;;
+}
+
+.navbar-brand {
+     padding: 0; 
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #233142;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fbd959;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fbd959;
+    background-color: #233142;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #fbd959;
+    background-color: transparent;
+}
+/* navbar Mobile */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fbd959;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #233142;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fbd959;
+}
+
+
+@media (max-width: 768px) {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+}
+}
+/* Carousel */
+
+.carousel-caption {
+    bottom:170px;
+    background:rgba(3,3,3,0.3);
+    padding-right:20px;
+    padding-left:20px
+}
+@media (max-width: 768px) {
+  
+.carousel-caption {
+    bottom:10px !important;
+    
+}
+.h1 {
+    font-size:16px
+    
+}
+.lead {
+    margin-bottom: 0; 
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+}
+
+.carousel-indicators {bottom:0}
+
+.carousel-indicators li {
+    height:15px;
+    width:15px;
+    
+}
+
+.carousel-indicators .active {height:17px;width:17px;  background-color: #fbd959;}
+
+.carousel-inner > .item > img {width:100%}
+
+/******* End Carousel ******/
+
+
+/* Start main Section */
+
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+/* End  main Section */
+
+/* Start Section Contact Us */
+.contact-us:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    top: 0;
+    background-image: url(../image/background_wrapper.png);
+    height: 85px;
+}
+
+.contact-us {
+    position: relative;
+    min-height:400px;
+}
+.title-new{
+
+	margin-bottom:20px
+}
+.col-md-12 {
+	padding-left:0;
+	padding-right: 0;
+}
+
+.contact-us .fields {background:#303133;;min-height:500px;color:#DDD}
+
+.contact-us p {margin-bottom:40px}
+
+.contact-us textarea {height:108px}
+
+.contact-us input[type="text"],
+
+.contact-us textarea {background:rgba(82,78,78,0.5);color:#FFF;border:none}
+
+.input-lg {
+    border-radius: 0px; 
+}
+.contact-us textarea {
+    height: 118px;
+}
+
+/* End Section Contact Us */
+
+.call-us{
+	text-align:right;
+	font-family:  myFirstFont;' 
+}
+
+.hr-color {
+  border-bottom: 2px solid #E5E5E5;
+      
+}
+.hr-color:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #fbd959 ;
+  margin-bottom: -2px;
+  max-width: 200px;
+
+}
+
+.feat {
+	
+    padding: 30px;
+}
+.large.glyphicon {
+    font-size: 50px;
+}
+
+
+/*pagination */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #233142;
+    border-color: #233142;
+}
+footer {
+	background: #303133 !important;
+    border-top: solid 1px #303133 !important;
+	color:white;
+
+}
+
